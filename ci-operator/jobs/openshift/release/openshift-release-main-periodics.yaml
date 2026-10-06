@@ -339329,6 +339329,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -339336,7 +339337,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -339433,6 +339433,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -339440,7 +339441,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -345781,6 +345781,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -345788,7 +345789,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -345885,6 +345885,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -345892,7 +345893,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -346195,6 +346195,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build09
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -346202,7 +346203,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: azure4
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-azure
@@ -346299,6 +346299,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build09
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -346306,7 +346307,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: azure4
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-azure
@@ -347872,6 +347872,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build08
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -347879,7 +347880,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: gcp
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-gcp
@@ -347976,6 +347976,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build08
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -347983,7 +347984,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: gcp
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-gcp
@@ -349627,6 +349627,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -349634,7 +349635,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -349732,6 +349732,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -349739,7 +349740,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -350461,6 +350461,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -350468,7 +350469,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -350566,6 +350566,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -350573,7 +350574,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -350879,6 +350879,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -350886,7 +350887,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -350984,6 +350984,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -350991,7 +350992,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -363539,7 +363539,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: vsphere02
-  cron: 30 17 * * 1
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -373115,6 +373115,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -373122,7 +373123,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -373219,6 +373219,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -373226,7 +373227,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -379050,6 +379050,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -379057,7 +379058,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -379154,6 +379154,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build03
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -379161,7 +379162,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: aws
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-aws
@@ -379464,6 +379464,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build09
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -379471,7 +379472,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: azure4
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-azure
@@ -379568,6 +379568,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build09
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -379575,7 +379576,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: azure4
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-azure
@@ -381141,6 +381141,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build08
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -381148,7 +381149,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: gcp
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-gcp
@@ -381245,6 +381245,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build08
+  cron: 0 0,12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -381252,7 +381253,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     ci-operator.openshift.io/cloud: gcp
     ci-operator.openshift.io/cloud-cluster-profile: openshift-org-gcp
@@ -382896,6 +382896,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -382903,7 +382904,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -383001,6 +383001,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -383008,7 +383009,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -383730,6 +383730,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -383737,7 +383738,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -383835,6 +383835,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -383842,7 +383843,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -384148,6 +384148,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -384155,7 +384156,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -384253,6 +384253,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build10
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
@@ -384260,7 +384261,6 @@ periodics:
   - base_ref: main
     org: openshift
     repo: release
-  interval: 168h
   labels:
     capability/intranet: intranet
     ci-operator.openshift.io/cloud: equinix-ocp-metal
@@ -396808,7 +396808,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: vsphere02
-  cron: 30 17 * * 2
+  cron: 0 12 * * *
   decorate: true
   decoration_config:
     skip_cloning: true
